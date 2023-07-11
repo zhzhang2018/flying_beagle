@@ -12,7 +12,45 @@ I've been having an idea about an anti-meta bot. Now it's time to make some seri
   - But I'm not confident to win the control game as a very inexperienced driver whose previous bots all had weak or rarely controllable drivetrains.
   - So, in case the "lifter" design scores a pin, then the rear horizontal can still score some damage points by side-swiping. Kind of like Minimizer.
  
+## More thoughts on the chassis
+
+Main source of inspiration is SSP. 
+
+#### SSP kit is 2lb without the servo and lifter module. My chassis design is likely never going to be lighter than that. 
+However, there might be room for improvement? Such as deducing a pair of wheels, and sacrifice some armor? But the battery will also nearly double SSP's capacity, so no clear answer.
+
 ## More thoughts on the lifter design
+
+Because the "lifter" is fairly unconventional, I'll start from listing some requirements. Not ranked yet. 
+
+### The lifter must be resistant to sudden impact
+
+Kind of easy to achieve, but might still need some more thought. Current idea is to use TPU like Hot Wings [citation needed], and maybe add some aluminum or titanium "bone" inside each arm. 
+
+From Discord it seems like 0.25" Al takes hits better than 0.125" Ti. But maybe weight would be the larger factor. 
+
+#### The lifter should survive vert hits
+
+I'm surprised how well Hot Wings' arms held up in June. Not sure if that can be transferrable - Hot Wings' arms move horizontally, but mine would be vertical. 
+
+Here's hoping TPU fails in a good way. 
+
+(For horizontal opponents: Consider wedge instead)
+
+#### The lifter likely needs to have torque limiting features
+
+### The lifter should be easy to swap
+
+Reason: Would definitely need to prepare spares. Also, this opens up to different configurations. Example: When facing drum opponents, maybe arm can have a spoon-like curve at the end to fit into the back of drums. 
+
+### The lifter needs to have good bite power
+
+Because that would bring several advantages: 
+- When you get a hold onto the opponent, better bite power makes it harder to let loose.
+- More power means possibility to self-right (although chassis should be designed to be drivable when inverted).
+- More power means it may actually be able to work as a lifter in certain configurations. (Imagine forks that has downforce by itself)
+But also some disadvantages:
+- When clamping down, it may give the opponent more friction. Unless you don't hold off too much, and you hold off at off-center parts. 
 
 ## More thoughts on the horizontal design
 
@@ -30,3 +68,8 @@ Notes from The Chilly Daddy. design:
 
 #### Chassis needs to be rigid enough to house a horizontal!
 The Chilli Daddy. uses a CNC'd UHMW billet, I assume. That sounds rigid enough, because FTBBs usually do the same thing. 
+
+But I would likely have to build the chassis without such fancy machinery. This is the time when I look at the Jolt! kit for help. 
+
+#### Likely also would be gear drive
+It's easy. And because a longer body means more weight and we likely won't have enough weight. 
