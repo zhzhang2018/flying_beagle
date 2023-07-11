@@ -94,9 +94,19 @@ First we need to decide on a motor.
 | Bite power  | Probably a pinch hazard by itself. Could be overkill. | 1/4 of Servo - but can be mended by some spur gears? |
 | Weight & Size  | 66g (2.33oz), 20mmx48mmx55mm | <60g (2.1oz), 22mmx22mmx(47+22)mm |
 | Control | Position-based, 200 degrees. Not sure how much current drawn when transmitter stick is at stall position (speed=0). | Throttle becomes ESC output current (?), so you can control how much current to draw when stall?? |
-| Requirements | Needs a 8.4V-9V BEC and a housing | Needs an extra ESC just for itself |
+| Transmission | Pinion. Can also make use of servo horn. | Maybe set-screw pinion, maybe set-screw pulley. |
+| Additional parts | Needs a 8.4V-9V BEC and a housing | Needs an extra Tarakan ESC ($50) just for itself |
 
 Other options that were not followed-up with: 
 - Repeat brushed drive: Only has 0.5 kg-cm stall torque. Scaling it up would be a challenge by itself.
   - I have tried to search for existing gearboxes. Pololu is an option, but even [the lightest (156:1)](https://www.pololu.com/product/3492) is about 46g. Add to original motor's 26g...
 - Repeat brushless drive: It's more because I don't know how brushless can work for a lifter.
+
+
+Next, the mechanism that links the motor to the lifter arms... 
+
+
+#### Unused ideas
+- Spring-loaded lifter arm. It sounds enticing, but it means there's a stable state. We may want lifter to be able to move and stay in both directions, though.
+- Snail or other common lifter mechanism designs. Controlling the movements linearly in both directions is easier. 
+
