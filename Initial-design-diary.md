@@ -88,12 +88,14 @@ It's easy. And because a longer body means more weight and we likely won't have 
 First we need to decide on a motor.
 | Metrics | SSP Servo | DartBox |
 |--|--|--|
-| Resistant to sudden impact | Bad. But it's not direct drive, so maybe it'll work out? | Maybe equally bad |
+| Resistant to sudden impact | Bad. But it's not direct drive, so maybe it'll work out? | Has 6mm shaft option |
 | Torque limiting | Claims to have protection against stalling (0.6A after 8s) | Requires current limiting ESC. Otherwise it's toast. |
-| Swap 
-| Bite power 
-| Weight & Size 
-| Control |
+| Swap lifter | N/A | N/A |
+| Bite power  | Probably a pinch hazard by itself. Could be overkill. | 1/4 of Servo - but can be mended by some spur gears? |
+| Weight & Size  | 66g (2.33oz), 20mmx48mmx55mm | <60g (2.1oz), 22mmx22mmx(47+22)mm |
+| Control | Position-based, 200 degrees. Not sure how much current drawn when transmitter stick is at stall position (speed=0). | Throttle becomes ESC output current (?), so you can control how much current to draw when stall?? |
+| Requirements | Needs a 8.4V-9V BEC and a housing | Needs an extra ESC just for itself |
+
 Other options that were not followed-up with: 
 - Repeat brushed drive: Only has 0.5 kg-cm stall torque. Scaling it up would be a challenge by itself.
   - I have tried to search for existing gearboxes. Pololu is an option, but even [the lightest (156:1)](https://www.pololu.com/product/3492) is about 46g. Add to original motor's 26g...
