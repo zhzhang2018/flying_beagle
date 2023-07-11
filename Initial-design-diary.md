@@ -77,8 +77,13 @@ The Chilli Daddy. uses a CNC'd UHMW billet, I assume. That sounds rigid enough, 
 
 But I would likely have to build the chassis without such fancy machinery. This is the time when I look at the Jolt! kit for help. 
 
-#### Likely also would be gear drive
+#### Likely also would be gear driven, instead of [belt driven](https://thevariableconstant.blogspot.com/p/silent-spring-3lbs.html)
 It's easy. And because a longer body means more weight and we likely won't have enough weight. 
+
+#### Likely won't have a too powerful weapon
+Weight is limitation. 
+
+Maybe the motor would be small, as well. The Chilli Daddy.'s weapon motor seems to be [SUNNYSKY X4108S 380KV](https://www.himodel.com/m/electric/SUNNYSKY_X4108S_380KV_Outrunner_Brushless_Motor_for_Multi-rotor_Aircraft.html), already 113g (4oz) by itself... 
 
 
 # Design decisions
@@ -99,8 +104,8 @@ First we need to decide on a motor.
 
 Other options that were not followed-up with: 
 - Repeat brushed drive: Only has 0.5 kg-cm stall torque. Scaling it up would be a challenge by itself.
-  - I have tried to search for existing gearboxes. Pololu is an option, but even [the lightest (156:1)](https://www.pololu.com/product/3492) is about 46g. Add to original motor's 26g...
-- Repeat brushless drive: It's more because I don't know how brushless can work for a lifter.
+  - I have tried to search for existing gearboxes. Pololu is an option, but even [the lightest (156:1)](https://www.pololu.com/product/3492) is about 46g (1.6oz). Add to original motor's 26g...
+- Repeat brushless drive: It's more because I don't know how brushless can work for a lifter... or [how to control its torque in general](https://www.reddit.com/r/battlebots/comments/13v99xo/brushless_with_high_reduction_gearbox_in_a_beetle/).
 
 
 Next, the mechanism that links the motor to the lifter arms... 
