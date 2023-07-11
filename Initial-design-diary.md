@@ -19,19 +19,20 @@ Main source of inspiration is SSP.
 #### SSP kit is 2lb without the servo and lifter module. My chassis design is likely never going to be lighter than that. 
 However, there might be room for improvement? Such as deducing a pair of wheels, and sacrifice some armor? But the battery will also nearly double SSP's capacity, so no clear answer.
 
+#### As a control bot, the drivetrain must be decent.
+Easiest way out is buy SSP parts, I guess. But the Tarakan ESC was sold out. 
+
 ## More thoughts on the lifter design
 
 Because the "lifter" is fairly unconventional, I'll start from listing some requirements. Not ranked yet. 
 
-### The lifter must be resistant to sudden impact
+#### The lifter must be resistant to sudden impact
 
 Kind of easy to achieve, but might still need some more thought. Current idea is to use TPU like Hot Wings [citation needed], and maybe add some aluminum or titanium "bone" inside each arm. 
 
 From Discord it seems like 0.25" Al takes hits better than 0.125" Ti. But maybe weight would be the larger factor. 
 
-#### The lifter should survive vert hits
-
-I'm surprised how well Hot Wings' arms held up in June. Not sure if that can be transferrable - Hot Wings' arms move horizontally, but mine would be vertical. 
+**The lifter should survive vert hits.** I'm surprised how well Hot Wings' arms held up in June. Not sure if that can be transferrable - Hot Wings' arms move horizontally, but mine would be vertical. 
 
 Here's hoping TPU fails in a good way. 
 
@@ -39,18 +40,23 @@ Here's hoping TPU fails in a good way.
 
 #### The lifter likely needs to have torque limiting features
 
-### The lifter should be easy to swap
+This determines how the transmission is done. Clutch is too expensive (and requires more expeirience). Belt drive or gear drive fits my caliber. 
+
+#### The lifter should be easy to swap
 
 Reason: Would definitely need to prepare spares. Also, this opens up to different configurations. Example: When facing drum opponents, maybe arm can have a spoon-like curve at the end to fit into the back of drums. 
 
-### The lifter needs to have good bite power
+#### The lifter needs to have good bite power
 
 Because that would bring several advantages: 
 - When you get a hold onto the opponent, better bite power makes it harder to let loose.
 - More power means possibility to self-right (although chassis should be designed to be drivable when inverted).
 - More power means it may actually be able to work as a lifter in certain configurations. (Imagine forks that has downforce by itself)
 But also some disadvantages:
-- When clamping down, it may give the opponent more friction. Unless you don't hold off too much, and you hold off at off-center parts. 
+- When clamping down, it may give the opponent more friction. Unless you don't hold off too much, and you hold off at parts further from opponents' wheels.
+- 
+#### The lifter mechanism is not exposed to the outside at any moment
+(especially when inverted. Add some shield.)
 
 ## More thoughts on the horizontal design
 
@@ -73,3 +79,22 @@ But I would likely have to build the chassis without such fancy machinery. This 
 
 #### Likely also would be gear drive
 It's easy. And because a longer body means more weight and we likely won't have enough weight. 
+
+
+# Design decisions
+
+## Lifter mechanism
+
+First we need to decide on a motor.
+| Metrics | SSP Servo | DartBox |
+|--|--|--|
+| Resistant to sudden impact | Bad. But it's not direct drive, so maybe it'll work out? | Maybe equally bad |
+| Torque limiting | Claims to have protection against stalling (0.6A after 8s) | Requires current limiting ESC. Otherwise it's toast. |
+| Swap 
+| Bite power 
+| Weight & Size 
+| Control |
+Other options that were not followed-up with: 
+- Repeat brushed drive: Only has 0.5 kg-cm stall torque. Scaling it up would be a challenge by itself.
+  - I have tried to search for existing gearboxes. Pololu is an option, but even [the lightest (156:1)](https://www.pololu.com/product/3492) is about 46g. Add to original motor's 26g...
+- Repeat brushless drive: It's more because I don't know how brushless can work for a lifter.
