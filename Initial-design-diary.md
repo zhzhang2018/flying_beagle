@@ -107,6 +107,7 @@ First we need to decide on a motor.
 Other options that were not followed-up with: 
 - Repeat brushed drive: Only has 0.5 kg-cm stall torque. Scaling it up would be a challenge by itself.
   - I have tried to search for existing gearboxes. Pololu is an option, but even [the lightest (156:1)](https://www.pololu.com/product/3492) is about 46g (1.6oz). Add to original motor's 26g...
+- [22mm planetary gear motor](https://www.fingertechrobotics.com/proddetail.php?prod=22mm-planetary-730rpm): 2kg-cm at 85g. Still not comparable to a servo (32 kg-cm).
 - Repeat brushless drive: It's more because I don't know how brushless can work for a lifter... or [how to control its torque in general](https://www.reddit.com/r/battlebots/comments/13v99xo/brushless_with_high_reduction_gearbox_in_a_beetle/).
 
 
