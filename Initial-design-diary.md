@@ -28,7 +28,7 @@ Because the "lifter" is fairly unconventional, I'll start from listing some requ
 
 #### The lifter must be resistant to sudden impact
 
-Kind of easy to achieve, but might still need some more thought. Current idea is to use TPU like Hot Wings [citation needed], and maybe add some aluminum or titanium "bone" inside each arm. 
+Kind of easy to achieve, but might still need some more thought. Current idea is to use TPU like Hot Wings, and maybe add some aluminum or titanium "bone" inside each arm. 
 
 From Discord it seems like 0.25" Al takes hits better than 0.125" Ti. But maybe weight would be the larger factor. 
 
@@ -36,7 +36,9 @@ From Discord it seems like 0.25" Al takes hits better than 0.125" Ti. But maybe 
 
 Here's hoping TPU fails in a good way. 
 
-(For horizontal opponents: Consider wedge instead)
+**Update 7/11** Confirmed by NHRL discord - Hot Wings' arms are driven by servo, connected with a gear. The chassis-side of the arm is also shaped like a gear, and is spinning around a 3/8" sholder bolt as pivot. So far it has survived bots like Caldera... TPU is magic. (SSP also is TPU + Servo, but they have a larger fatality rate partially due to overvolting) But also note that softer TPU is harder to print. It's a balancing act between softness (absorbing hits) and hardness (be able to lift) and wall thickness & nozzle diameter for lifters and grabbers. 
+
+(For horizontal opponents: Consider non-ablative wedge mounted on semi-shock-absorbing material instead)
 
 #### The lifter likely needs to have torque limiting features
 
@@ -108,7 +110,9 @@ Other options that were not followed-up with:
 - Repeat brushless drive: It's more because I don't know how brushless can work for a lifter... or [how to control its torque in general](https://www.reddit.com/r/battlebots/comments/13v99xo/brushless_with_high_reduction_gearbox_in_a_beetle/).
 
 
-Next, the mechanism that links the motor to the lifter arms... 
+Next, the mechanism that links the motor to the lifter arms... It has to lift both arms with one servo. 
+
+I may try with a nylon "rod" , considering how frictionless nylon usually is. The servo's pinion spins the rod, or is housed inside the rod, depending on ease of disassembly and reassembly. Both ends of the rod directly connects the arms via something like a key shaft. 
 
 
 #### Unused ideas
