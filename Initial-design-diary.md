@@ -2,7 +2,7 @@ I've been having an idea about an anti-meta bot. Now it's time to make some seri
 
 # Initial idea
 - Name: FLYING BEAGLE
-- Namesake: [FLYING BEAGLE}(https://www.youtube.com/watch?v=HHOn8u-c2wk) (Himiko Kikuchi album)
+- Namesake: [FLYING BEAGLE](https://www.youtube.com/watch?v=HHOn8u-c2wk) (Himiko Kikuchi album)
 - Weapon type:
   - "Lifter". It's not designed to be a lifter (but would be nice if it can be extended to a lifter), but more like a pair of keep-off arms. Like the "de-ICEr" of Ghost Raptor.
   - Rear-mounted horizontal blade, if weight allows.
@@ -47,6 +47,8 @@ This determines how the transmission is done. Clutch is too expensive (and requi
 #### The lifter should be easy to swap
 
 Reason: Would definitely need to prepare spares. Also, this opens up to different configurations. Example: When facing drum opponents, maybe arm can have a spoon-like curve at the end to fit into the back of drums. 
+
+This also means that Tantrum (2021)'s srimech design might not work too well. See their [photo album](https://photos.google.com/share/AF1QipOpEqNA1lCvuAV3ZvwB2k8h1N9K4mluP_-mK77eoKt6AT2JPFcvYMxtELM2SjaN8w?key=VVJyWm1yZDgyNnpPQ1R4dzVFWFNmNEcyM1htOGJn) as a reference - it's simply one giant bent rod, clamped down in the back to be held in-place, with a soldered hub that attaches to the gear-thing for transmission. For weight's sake, I highly doubt a metal rod would be a reasonable choice for 3lb; for servicing, having one side of the rod damaged might require replacing the entire thing. But one could also argue it's a simple design, too, I guess, as long as there's something solid enough to hold it down at the right place, like Fingertech's beater bar motor clamp. 
 
 #### The lifter needs to have good bite power
 
